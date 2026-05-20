@@ -37,7 +37,8 @@
 Перейдіть у кореневу директорію репозиторію та створіть віртуальне середовище (назвемо його `.venv`):
 
 ```bash
-python3 -m venv .venv```
+python3 -m venv .venv
+```
 
 ###2. Активація віртуального оточення
 Перед встановленням бібліотек обов'язково активуйте створене середовище:
@@ -50,7 +51,8 @@ source .venv/bin/activate
 Для Windows (PowerShell):
 
 ```PowerShell
-.venv\Scripts\Activate.ps1```
+.venv\Scripts\Activate.ps1
+```
 (Після активації на початку вашого рядка в терміналі з'явиться префікс (.venv)).
 
 ###3. Встановлення необхідних залежностей
@@ -64,6 +66,7 @@ pip install -r requirements.txt
 Для перегляду та виконання коду лабораторної роботи запустить локальний сервер Jupyter:
 
 ```bash
-jupyter notebook```
+jupyter notebook
+```
 
 Після цього у браузері відкриється інтерфейс, де ви зможете по черзі запустити блокноти Part1_NOAA_Analysis.ipynb та Part2_Household_Power.ipynb.
