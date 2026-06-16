@@ -26,14 +26,14 @@
 python3 -m venv .venv
 source .venv/bin/activate
 ```
-###2. Встановлення пакетів
+### 2. Встановлення пакетів
 Оновіть pip та встановіть файли залежностей, які знаходяться всередині папки п'ятої лабораторної:
 
 ```bash
 pip install --upgrade pip
 pip install -r lab_05/requirements.txt
 ```
-###3. Запуск веб-додатка Streamlit
+### 3. Запуск веб-додатка Streamlit
 Локальний сервер додатка запускається командою:
 
 ```bash
